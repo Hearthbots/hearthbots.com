@@ -86,3 +86,27 @@ a.badge-ph:hover, a.badge-ph:focus-visible { box-shadow: var(--glow); outline: n
   .bots h3 { font-size: 1.3rem; }
   .bots p { font-size: 1.05rem; }
 }
+
+/* ---- text pages (privacy, support) ---- */
+.page { max-width: 980px; margin: 0 auto; padding: 3rem 2rem 2rem; }
+.doc { background: var(--panel); border: 3px solid var(--brass); border-radius: 26px; padding: 2.6rem 3rem; font-size: 1.25rem; }
+.doc h1 { font-size: 3rem; font-weight: 900; margin: 0 0 .3rem; color: var(--brass-l); }
+.doc h2 { font-size: 1.7rem; text-align: left; margin: 2rem 0 .5rem; }
+.doc p { margin: 0 0 1rem; max-width: 40em; }
+.doc a { font-weight: 700; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.eff { color: var(--dim); font-weight: 700; }
+.lead-doc { font-size: 1.45rem; font-weight: 600; color: var(--dim); }
+.mail-big { font-size: 1.7rem; }
+.doc-ember { float: right; width: 160px; margin: -1rem 0 1rem 1.5rem; filter: drop-shadow(0 12px 18px rgba(0,0,0,.5)); }
+.tip { clear: both; margin-top: 2rem; padding: 1.2rem 1.6rem; border: 3px dashed var(--brass); border-radius: 18px; background: #1a110b; }
+.tip h2 { margin-top: 0; }
+.tip p { margin: 0; }
+@media (max-width: 900px) {
+  .page { padding: 1.4rem .8rem; }
+  .doc { padding: 1.6rem 1.2rem; font-size: 1.15rem; }
+  .doc h1 { font-size: 2.3rem; }
+  .doc h2 { font-size: 1.45rem; }
+  .lead-doc { font-size: 1.25rem; }
+  .mail-big { font-size: 1.05rem; } .mail-big a { white-space: nowrap; }
+  .doc-ember { width: 110px; margin: -.4rem 0 .6rem 1rem; }
+}
