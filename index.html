@@ -1,20 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hearthbots</title>
-  <style>
-    body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
-           background:#2b1d14; color:#f2c46d; font-family:Inter, system-ui, sans-serif; text-align:center; }
-    h1 { font-size:4rem; letter-spacing:.1em; margin:0; }
-    p { color:#e8d9c0; font-size:1.3rem; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearthbots: card games with friendly bots</title>
+<meta name="description" content="Hearthbots: tavern card games with friendly robot players. Euchre and Cribbage are coming soon.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <h1>HEARTHBOTS</h1>
-    <p>Cozy card games with bots who talk back. Euchre now, Cribbage soon! 🔥</p>
+<header class="topbar">
+  <a class="brand" href="/">HEARTHBOTS</a>
+  <nav><a href="#games">Games</a><a href="#bots">Meet the bots</a><a href="/support/">Support</a></nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <h1><img src="assets/logo_hearthbots.png" alt="Hearthbots: pull up a chair, the bots will deal" width="1000" height="659"></h1>
+    <p class="lead">Classic card games with a cozy futuristic atmosphere</p>
+    <div class="cta-row">
+      <a class="btn btn-gold" href="#games">See the games</a>
+      <a class="btn btn-ghost" href="#bots">Meet the bots</a>
+    </div>
   </div>
+  <figure class="hero-ember"><img src="assets/ember_thumbsup.png" alt="Ember, the Hearthbots host, giving a thumbs up" width="206" height="390"><figcaption>Ember</figcaption></figure>
+</section>
+
+<section id="games" class="section">
+  <h2>Our games</h2>
+  <div class="games">
+    <article class="game">
+      <img class="app-icon" src="assets/icon_euchre.png" alt="Hearthbots Euchre app icon" width="360" height="360">
+      <div class="game-body">
+        <h3>Euchre</h3>
+        <span class="pill pill-soon">COMING SOON</span>
+        <div class="badges">
+          <span class="badge-ph is-disabled">App Store badge<br><small>PLACEHOLDER</small></span>
+          <span class="badge-ph is-disabled">Download (desktop)<br><small>PLACEHOLDER</small></span>
+        </div>
+      </div>
+    </article>
+    <article class="game">
+      <img class="app-icon" src="assets/icon_cribbage.png" alt="Hearthbots Cribbage app icon" width="360" height="360">
+      <div class="game-body">
+        <h3>Cribbage</h3>
+        <span class="pill pill-soon">COMING SOON</span>
+        <div class="badges">
+          <span class="badge-ph is-disabled">App Store badge<br><small>PLACEHOLDER</small></span>
+          <span class="badge-ph is-disabled">Download (desktop)<br><small>PLACEHOLDER</small></span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="bots" class="section">
+  <h2>Meet the bots</h2>
+  <ul class="bots">
+    <li><img src="assets/bots/grizz.png" alt="Grizz" width="320" height="320"><h3>Grizz</h3><span class="tag" style="--t:#26a096">PAPA BEAR</span><p>It&rsquo;s not a card game until people start teasing each other!</p></li>
+    <li><img src="assets/bots/zeetie.png" alt="Zeetie" width="320" height="320"><h3>Zeetie</h3><span class="tag" style="--t:#f08018">PLAYFUL</span><p>Holy Rabbits! Wait, where&rsquo;d the other 28 cards go?</p></li>
+    <li><img src="assets/bots/rizzy.png" alt="Rizzy" width="320" height="320"><h3>Rizzy</h3><span class="tag" style="--t:#26a096">ADORKABLE</span><p>Always smiling, never mad.</p></li>
+    <li><img src="assets/bots/gemma.png" alt="Gemma" width="320" height="320"><h3>Gemma</h3><span class="tag" style="--t:#26a096">STEADY</span><p>Cautious, steady, always smiling.</p></li>
+    <li><img src="assets/bots/luckybee.png" alt="Lucky Bee" width="320" height="320"><h3>Lucky Bee</h3><span class="tag" style="--t:#e86096">TRICKY</span><p>Bubbly, sneaky, loves a loner.</p></li>
+    <li><img src="assets/bots/pandaman.png" alt="Pandaman" width="320" height="320"><h3>Pandaman</h3><span class="tag" style="--t:#e2aa28;--tc:#2a1a10">POUNCER</span><p>Bids careful, then pounces.</p></li>
+    <li><img src="assets/bots/trapper.png" alt="Trapper" width="320" height="320"><h3>Trapper</h3><span class="tag" style="--t:#8c5c3c">THE TRAP</span><p>Go ahead, bid!</p></li>
+    <li><img src="assets/bots/chaos.png" alt="Chaos Agent" width="320" height="320"><h3>Chaos Agent</h3><span class="tag" style="--t:#f08228;--tc:#2a1a10">WILDCARD</span><p>Loves aces. Own rules.</p></li>
+  </ul>
+</section>
+</main>
+
+<footer class="footer">
+  <nav><a href="/privacy/">Privacy</a><a href="/support/">Support</a><a href="/release-notes/">Release Notes</a></nav>
+  <p>&copy; 2026 Hearthbots</p>
+</footer>
 </body>
 </html>
