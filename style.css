@@ -110,3 +110,14 @@ a.badge-ph:hover, a.badge-ph:focus-visible { box-shadow: var(--glow); outline: n
   .mail-big { font-size: 1.05rem; } .mail-big a { white-space: nowrap; }
   .doc-ember { width: 110px; margin: -.4rem 0 .6rem 1rem; }
 }
+
+/* ---- release notes ---- */
+.ver { border-top: 2px solid var(--brass); margin-top: 2rem; padding-top: .4rem; }
+.ver h2 { margin-top: 1rem; }
+.ver-name { display: inline-block; font-size: .95rem; font-weight: 700; color: var(--dim); margin-left: .5rem; vertical-align: middle; }
+.ver-date { color: var(--dim); font-weight: 700; font-size: 1rem; margin: -.3rem 0 .8rem; }
+.doc ul { margin: 0 0 1rem; padding-left: 1.3em; max-width: 40em; }
+.doc li { margin: 0 0 .6rem; }
+.doc blockquote { margin: 0 0 1rem; padding: .6rem 1rem; border-left: 4px solid var(--brass); color: var(--dim); font-style: italic; max-width: 38em; }
+.doc cite { font-style: normal; font-weight: 700; font-size: .95em; }
+@media (max-width: 640px) { .ver-name { display: block; margin: .2rem 0 0; } }
